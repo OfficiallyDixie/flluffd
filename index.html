@@ -3,7 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flluffd | mellow your space</title>
+    <title>flluffd | mellow your space — pastel aesthetic desk setups & clouds</title>
+    
+    <!-- SEO & Organic Search Meta Tags -->
+    <meta name="description" content="Bring slow mornings, soft aesthetics, and tactile comfort to your workspace curations with flluffd. Custom pastel cloud keyboards, wrist rests, and drops.">
+    <meta name="keywords" content="pastel desk setup, mechanical keyboard, cloud wrist rest, kawaii desk aesthetic, flluffd, custom keyboard drops">
+    <link rel="canonical" href="https://flluffd.com/">
+
+    <!-- Open Graph / Social Sharing (Instagram, iMessage, TikTok preview) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://flluffd.com/">
+    <meta property="og:title" content="flluffd | mellow your space">
+    <meta property="og:description" content="Bring slow mornings, soft aesthetics, and tactile comfort to your workspace curations.">
+    <meta property="og:image" content="https://i.postimg.cc/GtQwXV3C/Gemini-Generated-Image-flzpgdflzpgdflzp-removebg-preview.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="flluffd | mellow your space">
+    <meta name="twitter:description" content="Bring slow mornings, soft aesthetics, and tactile comfort to your workspace curations.">
+    <meta name="twitter:image" content="https://i.postimg.cc/GtQwXV3C/Gemini-Generated-Image-flzpgdflzpgdflzp-removebg-preview.png">
+
+    <!-- Structured Data for Search Engines & AI Crawlers (Schema.org JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "flluffd Mellow Desk Setup & Cloud Keyboard",
+      "image": "https://i.etsystatic.com/58612526/r/il/80be42/6854252535/il_1588xN.6854252535_cxo7.jpg",
+      "description": "Bringing slow mornings, soft aesthetics, and tactile comfort to your workspace curations.",
+      "brand": {
+        "@type": "Brand",
+        "name": "flluffd"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://flluffd.com/",
+        "priceCurrency": "USD",
+        "price": "150.00",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
+
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600;700&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -31,10 +72,11 @@
             color: var(--blackberry);
         }
 
+        /* Sticky Header */
         header {
             position: sticky;
             top: 0;
-            background: rgba(253, 251, 247, 0.9);
+            background: rgba(253, 251, 247, 0.95);
             backdrop-filter: blur(10px);
             display: flex;
             justify-content: space-between;
@@ -44,8 +86,8 @@
             border-bottom: 2px solid var(--blackberry);
         }
 
-        .logo-wrap { height: 48px; display: flex; align-items: center; }
-        .logo-img { height: 100%; width: auto; object-fit: contain; }
+        .logo-wrap { height: 48px; }
+        .logo-img { height: 100%; width: auto; object-fit: contain; mix-blend-mode: multiply; }
 
         nav a {
             font-family: 'Outfit', sans-serif;
@@ -58,6 +100,7 @@
         nav a:hover { opacity: 0.7; }
         .nav-right { display: flex; align-items: center; }
 
+        /* Hero */
         .hero-image-container {
             width: 100%;
             background-color: var(--bg-oat);
@@ -128,48 +171,54 @@
         .grid-item:hover { transform: translateY(-8px); box-shadow: 0 16px 0 var(--blackberry); }
         .grid-item img { width: 100%; height: 100%; object-fit: cover; }
 
+        /* Reels Grid (3 items) */
         .reels-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1000px; margin: 0 auto; }
-        .reel-item { border: 3px solid var(--blackberry); border-radius: 24px; overflow: hidden; aspect-ratio: 9/16; background: #E2D9E8; position: relative; box-shadow: 0 8px 0 var(--blackberry); cursor: pointer; transition: transform 0.3s; display: flex; align-items: center; justify-content: center; text-decoration: none; }
+        .reel-item { border: 3px solid var(--blackberry); border-radius: 24px; overflow: hidden; aspect-ratio: 9/16; background: #E2D9E8; position: relative; box-shadow: 0 8px 0 var(--blackberry); cursor: pointer; transition: transform 0.3s; display: flex; align-items: center; justify-content: center; background-size: cover; background-position: center;}
         .reel-item:hover { transform: translateY(-8px); box-shadow: 0 16px 0 var(--blackberry); }
-        .reel-bg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.85; }
         .play-btn { width: 60px; height: 60px; background: rgba(253,251,247,0.9); border: 3px solid var(--blackberry); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 0 var(--blackberry); z-index: 2; }
         .play-btn::after { content: ''; display: block; width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 16px solid var(--blackberry); margin-left: 5px;}
 
-        footer { border-top: 3px solid var(--blackberry); padding: 4rem 5%; display: flex; justify-content: space-between; align-items: center; background: var(--bg-oat); flex-wrap: wrap; gap: 2rem; }
+        footer { border-top: 3px solid var(--blackberry); padding: 4rem 5%; display: flex; justify-content: space-between; align-items: center; background: var(--bg-oat); }
         .footer-socials { display: flex; gap: 2rem; flex-wrap: wrap; }
         .footer-socials a { font-family: 'DynaPuff', cursive; color: var(--blackberry); text-decoration: none; font-size: 1.2rem; transition: opacity 0.2s; }
         .footer-socials a:hover { opacity: 0.6; }
 
         .modal-overlay {
-            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
             background: rgba(45, 26, 41, 0.75); backdrop-filter: blur(8px);
-            z-index: 1000; display: flex; align-items: center; justify-content: center;
-            opacity: 0; pointer-events: none; transition: opacity 0.4s ease; padding: 20px;
+            z-index: 9999; display: flex; align-items: center; justify-content: center;
+            opacity: 0; visibility: hidden; pointer-events: none;
+            transition: opacity 0.3s ease, visibility 0.3s ease; padding: 20px;
         }
-        .modal-overlay.active { opacity: 1; pointer-events: auto; }
+        .modal-overlay.active { opacity: 1; visibility: visible; pointer-events: auto; }
         .modal-box {
             background: var(--bg-oat); border: 4px solid var(--blackberry); border-radius: 32px;
             max-width: 800px; width: 100%; display: grid; grid-template-columns: 1fr 1fr;
             box-shadow: 0 20px 0 var(--blackberry); position: relative; overflow: hidden;
+            transform: scale(0.95); transition: transform 0.3s ease;
         }
-        .modal-image { background-image: url('https://i.imgur.com/LvOSg4O.jpg'); background-size: cover; background-position: center; border-right: 4px solid var(--blackberry); min-height: 350px; }
+        .modal-overlay.active .modal-box { transform: scale(1); }
+        .modal-image { background-image: url('https://i.imgur.com/LvOSg4O.jpg'); background-size: cover; background-position: center; border-right: 4px solid var(--blackberry); }
         .modal-content { padding: 3rem; display: flex; flex-direction: column; justify-content: center; position: relative; }
         
         .close-btn {
-            position: absolute; top: 20px; right: 20px; background: none; border: none;
-            font-size: 2rem; color: var(--blackberry); cursor: pointer; font-family: 'DynaPuff', cursive; z-index: 10;
+            position: absolute; top: 16px; right: 20px; background: none; border: none;
+            font-size: 2.2rem; color: var(--blackberry); cursor: pointer; font-family: 'DynaPuff', cursive;
+            line-height: 1; z-index: 10; transition: transform 0.2s ease;
         }
-        .modal-logo-wrap { height: 42px; width: auto; display: inline-block; margin-bottom: 1.5rem; }
-        .modal-logo { height: 100%; width: auto; object-fit: contain; max-width: 140px; }
+        .close-btn:hover { transform: scale(1.15); }
+        .modal-logo { height: 48px; width: auto; max-width: 160px; object-fit: contain; margin-bottom: 1.5rem; mix-blend-mode: multiply; display: block; }
         .modal-box h2 { font-size: 2rem; line-height: 1.1; margin-bottom: 1rem; }
         .modal-box p { font-size: 1.05rem; margin-bottom: 2rem; }
         .email-form { display: flex; flex-direction: column; gap: 1rem; }
-        .email-input { width: 100%; padding: 1rem; border: 3px solid var(--blackberry); border-radius: 50px; font-family: 'Outfit', sans-serif; font-size: 1.1rem; outline: none; background: #fff; }
+        .email-input { width: 100%; padding: 1rem; border: 3px solid var(--blackberry); border-radius: 50px; font-family: 'Outfit', sans-serif; font-size: 1.1rem; outline: none; }
         .modal-box .btn { width: 100%; text-align: center; }
 
         @media (max-width: 900px) {
-            .configurator, .modal-box { grid-template-columns: 1fr; }
-            .static-grid, .reels-grid { grid-template-columns: repeat(2, 1fr); }
+            .configurator { grid-template-columns: 1fr; }
+            .modal-box { grid-template-columns: 1fr; max-width: 500px; }
+            .static-grid { grid-template-columns: repeat(2, 1fr); }
+            .reels-grid { grid-template-columns: 1fr; }
             .modal-image, nav { display: none; }
             footer { flex-direction: column; gap: 2rem; text-align: center; }
         }
@@ -179,15 +228,13 @@
 
     <div class="modal-overlay" id="vip-modal">
         <div class="modal-box">
-            <button class="close-btn" onclick="closeModal(event)">×</button>
+            <button class="close-btn" aria-label="Close modal" onclick="closeModal(event)">×</button>
             <div class="modal-image"></div>
             <div class="modal-content">
-                <div class="modal-logo-wrap">
-                    <img class="modal-logo" src="https://i.postimg.cc/GtQwXV3C/Gemini-Generated-Image-flzpgdflzpgdflzp-removebg-preview.png" alt="flluffd">
-                </div>
+                <img class="modal-logo" src="https://i.postimg.cc/GtQwXV3C/Gemini-Generated-Image-flzpgdflzpgdflzp-removebg-preview.png" alt="flluffd transparent logo">
                 <h2>get on the drop list</h2>
                 <p>Curated batches, tiny releases, and custom work. Enter your email for first dibs before the clouds fill up.</p>
-                <form class="email-form" action="#" onsubmit="handleFormSubmit(event)">
+                <form class="email-form" action="https://formspree.io/f/your_form_id" method="POST" onsubmit="handleFormSubmit(event)">
                     <input type="email" name="email" class="email-input" placeholder="your email address" required>
                     <button type="submit" class="btn">invite me in</button>
                 </form>
@@ -197,7 +244,7 @@
 
     <header>
         <div class="logo-wrap">
-            <img class="logo-img" src="https://i.postimg.cc/GtQwXV3C/Gemini-Generated-Image-flzpgdflzpgdflzp-removebg-preview.png" alt="flluffd">
+            <img class="logo-img" src="https://i.postimg.cc/GtQwXV3C/Gemini-Generated-Image-flzpgdflzpgdflzp-removebg-preview.png" alt="flluffd logo">
         </div>
         <nav>
             <a href="#about">curations</a>
@@ -210,7 +257,7 @@
     </header>
 
     <div class="hero-image-container" id="about">
-        <img class="hero-img" src="https://i.imgur.com/LAvHNLi.png" alt="mellow your space">
+        <img class="hero-img" src="https://i.imgur.com/LAvHNLi.png" alt="mellow your space pastel desk setup">
     </div>
     <div class="hero-cta-section">
         <p class="hero-subtitle">Bringing slow mornings, soft aesthetics, and tactile comfort to your workspace curations.</p>
@@ -219,7 +266,7 @@
 
     <section id="configurator" class="configurator">
         <div class="config-image-wrap">
-            <img id="main-image" src="https://i.etsystatic.com/58612526/r/il/80be42/6854252535/il_1588xN.6854252535_cxo7.jpg" alt="sweet heat pink drop">
+            <img id="main-image" src="https://i.etsystatic.com/58612526/r/il/80be42/6854252535/il_1588xN.6854252535_cxo7.jpg" alt="sweet heat pink drop mechanical keyboard">
         </div>
         <div class="config-details">
             <h2>mellow your space</h2>
@@ -232,9 +279,9 @@
             <div class="step">
                 <h3>1. choose your aesthetic</h3>
                 <div class="color-options">
-                    <button class="color-btn mint-btn" onclick="changeBase('mint')"></button>
-                    <button class="color-btn lavender-btn" onclick="changeBase('lavender')"></button>
-                    <button class="color-btn pink-btn active" onclick="changeBase('pink')"></button>
+                    <button class="color-btn mint-btn" onclick="changeBase('mint')" aria-label="Mint aesthetic"></button>
+                    <button class="color-btn lavender-btn" onclick="changeBase('lavender')" aria-label="Lavender aesthetic"></button>
+                    <button class="color-btn pink-btn active" onclick="changeBase('pink')" aria-label="Pink aesthetic"></button>
                 </div>
             </div>
 
@@ -267,68 +314,62 @@
         
         <h2>in motion</h2>
         <div class="reels-grid">
-            <a href="https://instagram.com" target="_blank" class="reel-item">
-                <img class="reel-bg" src="https://i.imgur.com/IFZ1wXH.jpg" alt="reel 1 preview">
-                <div class="play-btn"></div>
-            </a>
-            <a href="https://tiktok.com" target="_blank" class="reel-item">
-                <img class="reel-bg" src="https://i.imgur.com/qZFEa7A.jpg" alt="reel 2 preview">
-                <div class="play-btn"></div>
-            </a>
-            <a href="https://whatnot.com" target="_blank" class="reel-item">
-                <img class="reel-bg" src="https://i.imgur.com/LPMT0Ar.jpg" alt="reel 3 preview">
-                <div class="play-btn"></div>
-            </a>
+            <a href="https://instagram.com" target="_blank" class="reel-item" style="background-image: url('https://i.imgur.com/IFZ1wXH.jpg');"><div class="play-btn"></div></a>
+            <a href="https://tiktok.com" target="_blank" class="reel-item" style="background-image: url('https://i.imgur.com/qZFEa7A.jpg');"><div class="play-btn"></div></a>
+            <a href="https://youtube.com" target="_blank" class="reel-item" style="background-image: url('https://i.imgur.com/LPMT0Ar.jpg');"><div class="play-btn"></div></a>
         </div>
     </section>
 
     <footer>
         <div class="logo-wrap">
-            <img class="logo-img" src="https://i.postimg.cc/GtQwXV3C/Gemini-Generated-Image-flzpgdflzpgdflzp-removebg-preview.png" alt="flluffd">
+            <img class="logo-img" src="https://i.postimg.cc/GtQwXV3C/Gemini-Generated-Image-flzpgdflzpgdflzp-removebg-preview.png" alt="flluffd logo">
         </div>
         <div class="footer-socials">
-            <a href="#" target="_blank">instagram</a>
-            <a href="#" target="_blank">tiktok</a>
-            <a href="#" target="_blank">youtube</a>
-            <a href="#" target="_blank">whatnot</a>
-            <a href="#" target="_blank">pinterest</a>
+            <a href="https://instagram.com" target="_blank">instagram</a>
+            <a href="https://tiktok.com" target="_blank">tiktok</a>
+            <a href="https://youtube.com" target="_blank">youtube</a>
+            <a href="https://whatnot.com" target="_blank">whatnot</a>
+            <a href="https://pinterest.com" target="_blank">pinterest</a>
         </div>
     </footer>
 
     <script>
-        // Modal Logic
         const modal = document.getElementById('vip-modal');
         
         window.addEventListener('DOMContentLoaded', () => {
             const hasSeenModal = sessionStorage.getItem('flluffd_vip_seen');
             if (!hasSeenModal) {
-                setTimeout(() => { modal.classList.add('active'); }, 1500);
+                setTimeout(() => { openModal(); }, 1500);
             }
         });
 
+        function openModal() {
+            modal.classList.add('active');
+        }
+
         function closeModal(event) {
-            if(event) event.preventDefault();
+            if(event) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
             modal.classList.remove('active');
             sessionStorage.setItem('flluffd_vip_seen', 'true');
         }
 
         modal.addEventListener('click', (e) => {
             if (e.target === modal) {
-                closeModal();
+                closeModal(e);
             }
         });
 
         function triggerWaitlist() {
-            modal.classList.add('active');
+            openModal();
         }
         
         function handleFormSubmit(event) {
-            event.preventDefault();
             sessionStorage.setItem('flluffd_vip_seen', 'true');
-            modal.classList.remove('active');
         }
 
-        // Configurator Logic
         let basePrice = 150;
         let accessoriesTotal = 0;
         let isCableSelected = false;
